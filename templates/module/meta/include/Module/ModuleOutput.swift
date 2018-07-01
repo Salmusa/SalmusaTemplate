@@ -1,0 +1,2 @@
+protocol --META_MODULE_NAME--ModuleOutput--META_MODULE_OUTPUT_PROTOCOL-- {
+}

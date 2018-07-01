@@ -1,0 +1,2 @@
+protocol --META_MODULE_NAME--InteractorInput--META_INTERACTOR_INPUT_PROTOCOL-- {
+}

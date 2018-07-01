@@ -1,0 +1,2 @@
+protocol --META_MODULE_NAME--RouterInput--META_ROUTER_INPUT_PROTOCOL-- {
+}

@@ -1,0 +1,2 @@
+protocol --META_MODULE_NAME--ModuleInput--META_MODULE_INPUT_PROTOCOL-- {
+}

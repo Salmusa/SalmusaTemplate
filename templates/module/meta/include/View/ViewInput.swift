@@ -1,0 +1,2 @@
+protocol --META_MODULE_NAME--ViewInput--META_VIEW_INPUT_PROTOCOL-- {
+}
