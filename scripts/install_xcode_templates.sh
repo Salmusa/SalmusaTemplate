@@ -5,3 +5,4 @@ XCODE_CUSTOM_TEMPLATE_PATH="$HOME/Library/Developer/Xcode/Templates/File Templat
 rm -rf "$XCODE_CUSTOM_TEMPLATE_PATH/$TITLE"
 mkdir -p "$XCODE_CUSTOM_TEMPLATE_PATH/$TITLE"
 cp -R "build/module/xcode/Module.xctemplate" "$XCODE_CUSTOM_TEMPLATE_PATH/$TITLE/"
+cp -R "build/test/xcode/Test.xctemplate" "$XCODE_CUSTOM_TEMPLATE_PATH/$TITLE/"

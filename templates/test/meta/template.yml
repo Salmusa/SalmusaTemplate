@@ -1,0 +1,3 @@
+variables:
+  - name: META_MODULE_NAME
+  - name: META_HOST_TARGET_NAME
