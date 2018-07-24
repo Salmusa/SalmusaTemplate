@@ -6,6 +6,8 @@ import XCTest
 final class --META_MODULE_NAME--ModuleTests: XCTestCase {
 
     func testInitializeModule() {
-        XCTAssertNoThrow(--META_MODULE_NAME--Module())
+        let module = --META_MODULE_NAME--Module()
+        XCTAssertTrue(module.input is --META_MODULE_NAME--Presenter)
+        XCTAssertTrue(module.router is --META_MODULE_NAME--Router)
     }
 }
