@@ -16,5 +16,6 @@ final class --META_MODULE_NAME--ViewTests: XCTestCase {
         view = --META_MODULE_NAME--View()
         viewOutput = --META_MODULE_NAME--ViewOutputMock()
         view.output = viewOutput
+        _ = view.view
     }
 }
