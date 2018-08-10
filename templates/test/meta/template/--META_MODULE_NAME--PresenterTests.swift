@@ -32,4 +32,8 @@ final class --META_MODULE_NAME--PresenterTests: XCTestCase {
         presenter.router = router
         presenter.view = view
     }
+
+    func testInput() {
+        XCTAssertTrue(presenter.input is --META_MODULE_NAME--Presenter)
+    }
 }
