@@ -15,10 +15,10 @@ final class --META_MODULE_NAME--Module {
     private let view: --META_MODULE_NAME--View
 
     init() {
-        interactor = --META_MODULE_NAME--Interactor()
-        presenter = --META_MODULE_NAME--Presenter()
-        _router = --META_MODULE_NAME--Router()
-        view = --META_MODULE_NAME--View()
+        interactor = .init()
+        presenter = .init()
+        _router = .init()
+        view = .init()
         router = _router
         connectComponents()
     }
