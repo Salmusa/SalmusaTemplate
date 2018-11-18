@@ -41,5 +41,8 @@ echo "  - name: Module Name" >> "$TEMPLATE_YAML_FILE_OUTPUT_PATH"
 # Copy import
 cp "$TEMPLATE_SPECIFIC_FILE_PATH/Import" "$BUILD_TARGET_PATH/include/Import"
 
+# Copy import UIKit
+cp "$TEMPLATE_SPECIFIC_FILE_PATH/ImportUIKit" "$BUILD_TARGET_PATH/include/ImportUIKit"
+
 # Copy Module.swift file
 cp "$TEMPLATE_SPECIFIC_FILE_PATH/Module.swift" "$BUILD_TARGET_PATH/include/Module/Module.swift"

@@ -13,6 +13,9 @@ cp -R $TEMPLATE_PATH/* "$BUILD_TARGET_PATH"
 # Copy import
 cp "$TEMPLATE_SPECIFIC_FILE_PATH/Import" "$BUILD_TARGET_PATH/include/Import"
 
+# Copy import UIKit
+cp "$TEMPLATE_SPECIFIC_FILE_PATH/ImportUIKit" "$BUILD_TARGET_PATH/include/ImportUIKit"
+
 # Copy file header
 cp "$CUSTOMIZABLE_FILE_PATH/FileHeader" "$BUILD_TARGET_PATH/include/FileHeader"
 
