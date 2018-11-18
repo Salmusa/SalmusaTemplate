@@ -12,7 +12,7 @@ mkdir -p "$BUILD_TARGET_PATH"
 
 # Copy template files
 mkdir -p "$BUILD_TARGET_PATH/template/template"
-cp -R "$TEMPLATE_PATH/template" "$BUILD_TARGET_PATH/template/template/--META_MODULE_NAME--ModuleTests"
+cp -R "$TEMPLATE_PATH/template" "$BUILD_TARGET_PATH/template/template/--META_MODULE_NAME--Tests"
 cp "$TEMPLATE_PATH/template.yml" "$BUILD_TARGET_PATH/template.yml"
 
 # Copy file header
