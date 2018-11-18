@@ -22,11 +22,11 @@ final class --META_MODULE_NAME--PresenterTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        presenter = --META_MODULE_NAME--Presenter()
-        output = --META_MODULE_NAME--ModuleOutputMock()
-        interactor = --META_MODULE_NAME--InteractorInputMock()
-        router = --META_MODULE_NAME--RouterInputMock()
-        view = --META_MODULE_NAME--ViewInputMock()
+        presenter = .init()
+        output = .init()
+        interactor = .init()
+        router = .init()
+        view = .init()
         presenter.output = output
         presenter.interactor = interactor
         presenter.router = router

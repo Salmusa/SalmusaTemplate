@@ -13,8 +13,8 @@ final class --META_MODULE_NAME--InteractorTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        interactor = --META_MODULE_NAME--Interactor()
-        interactorOutput = --META_MODULE_NAME--InteractorOutputMock()
+        interactor = .init()
+        interactorOutput = .init()
         interactor.output = interactorOutput
     }
 }

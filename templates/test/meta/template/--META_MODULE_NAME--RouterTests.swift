@@ -13,8 +13,8 @@ final class --META_MODULE_NAME--RouterTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        router = --META_MODULE_NAME--Router()
-        view = --META_MODULE_NAME--ViewMock()
+        router = .init()
+        view = .init()
         router.view = view
     }
 }

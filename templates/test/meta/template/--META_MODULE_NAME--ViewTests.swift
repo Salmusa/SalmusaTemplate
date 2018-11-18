@@ -13,8 +13,8 @@ final class --META_MODULE_NAME--ViewTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        view = --META_MODULE_NAME--View()
-        viewOutput = --META_MODULE_NAME--ViewOutputMock()
+        view = .init()
+        viewOutput = .init()
         view.output = viewOutput
         _ = view.view
     }
