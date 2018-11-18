@@ -15,6 +15,7 @@ final class --META_MODULE_NAME--RouterTests: XCTestCase {
         super.setUp()
         router = .init()
         view = .init()
+        view.output = --META_MODULE_NAME--ViewOutputMock()
         router.view = view
     }
 }
