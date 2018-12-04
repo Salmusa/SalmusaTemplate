@@ -4,6 +4,8 @@ import XCTest
 @testable import --META_HOST_TARGET_NAME--
 
 // sourcery: AutoMockable
+extension --META_MODULE_NAME--ModuleInput {}
+// sourcery: AutoMockable
 extension --META_MODULE_NAME--ModuleOutput {}
 // sourcery: AutoMockable
 extension --META_MODULE_NAME--InteractorInput {}
