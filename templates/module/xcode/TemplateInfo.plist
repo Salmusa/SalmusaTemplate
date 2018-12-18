@@ -20,20 +20,28 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>ConformSalmusaProtocols</string>
+			<string>Dependency Injection</string>
 			<key>Type</key>
 			<string>popup</string>
 			<key>Name</key>
-			<string>Conform Salmusa Protocols:</string>
+			<string>Dependency Injection:</string>
 			<key>Required</key>
-			<string>YES</string>
+			<true/>
 			<key>Default</key>
-			<string>YES</string>
+			<string>Swinject</string>
 			<key>Values</key>
 			<array>
-				<string>YES</string>
-				<string>NO</string>
+				<string>Swinject</string>
+				<string>No</string>
 			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Salmusa</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Name</key>
+			<string>Conform Salmusa Protocols</string>
 		</dict>
 	</array>
 	<key>kind</key>
