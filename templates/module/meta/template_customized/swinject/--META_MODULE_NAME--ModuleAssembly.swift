@@ -1,6 +1,6 @@
 --INCLUDE:FileHeader--
 
---INCLUDE:Import--
+import Foundation
 import Swinject
 
 final class --META_MODULE_NAME--ModuleAssembly: Assembly {
