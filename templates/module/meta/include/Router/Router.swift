@@ -1,6 +1,5 @@
 final class --META_MODULE_NAME--Router--META_ROUTER_PROTOCOL-- {
 
-    var input: --META_MODULE_NAME--RouterInput { return self }
     weak var view: --META_MODULE_NAME--View!
 }
 

@@ -1,7 +1,5 @@
 --INCLUDE:FileHeader--
 
---INCLUDE:Import--
-
 --INCLUDE:Interactor/InteractorInput.swift--
 
 --INCLUDE:Interactor/InteractorOutput.swift--

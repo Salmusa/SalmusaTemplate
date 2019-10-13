@@ -1,6 +1,5 @@
 final class --META_MODULE_NAME--Presenter--META_PRESENTER_PROTOCOL-- {
 
-    var input: --META_MODULE_NAME--ModuleInput { return self }
     weak var output: --META_MODULE_NAME--ModuleOutput?
 
     var interactor: --META_MODULE_NAME--InteractorInput!

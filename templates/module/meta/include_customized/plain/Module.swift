@@ -1,7 +1,7 @@
 final class --META_MODULE_NAME--Module {
 
     var input: --META_MODULE_NAME--ModuleInput {
-        return presenter.input
+        return presenter
     }
     var output: --META_MODULE_NAME--ModuleOutput? {
         get { return presenter.output }
